@@ -1,0 +1,14 @@
+before_script:
+  - docker info
+
+stages:
+  - build
+
+build:
+  stage: build
+  # only:
+  #   - tags
+  script:
+    - docker login git.tarnamahost.ir:5050 -u "root" -p "AramData9863"
+    - docker build -f ./Dockerfile -t git.tarnamahost.ir:5050/headria/admin-cms .
+    - docker push git.tarnamahost.ir:5050/headria/admin-cms

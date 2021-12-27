@@ -1,0 +1,49 @@
+@url1 = http://127.0.0.1:5000/api/v1
+
+
+# SECTION  Login
+GET {{url1}}/login HTTP/1.1
+Content-Type: application/json
+
+{
+}
+###
+
+# SECTION  getChartData
+GET {{url1}}/getChartData?typeCode=1100&date=[20200801,20200905]&tickersIds=IRO7TONP0001&daily=true HTTP/1.1
+
+Content-Type: application/json
+
+{
+}
+###
+
+
+# SECTION  getTeammate
+GET {{url1}}/getTeammateTickers?typeCode=1100&industiesCode=3430 HTTP/1.1
+
+Content-Type: application/json
+
+{
+}
+###
+
+
+# SECTION  getTcikerbytickerid
+GET {{url1}}/bySymbolCode?typeCode=1100&code=IRO1CHAR0001 HTTP/1.1
+
+Content-Type: application/json
+
+{
+}
+###
+
+
+# SECTION  getTcikerWithPriceListbytickerid
+GET {{url1}}/symbolWithPriceList?&tickersId=IRO1CHAR0001 HTTP/1.1
+
+Content-Type: application/json
+
+{
+}
+###

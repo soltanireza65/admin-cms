@@ -1,0 +1,15 @@
+version: "3.4"
+
+services:
+  admin-front:
+    image: git.tarnamahost.ir:5050/headria/admin-cms
+    container_name: admin-front
+    environment:
+      NODE_ENV: production
+    networks:
+      - web
+    restart: always
+
+networks:
+  web:
+    external: true

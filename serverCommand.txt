@@ -1,0 +1,7 @@
+
+sudo yes | cp -rf /root/admincms-build/* /var/www/admincms
+sudo chown -R $ubuntu:$ubuntu /var/www/admincms
+sudo chmod -R 755 /var/www/admincms
+
+
+ rm -rf * 

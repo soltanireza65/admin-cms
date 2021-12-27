@@ -1,0 +1,33 @@
+const locale = {
+	save_data: 'اطلاعات برچسب {{title}} با موفقیت ثبت شد.',
+	edit_data: 'اطلاعات برچسب {{title}} بروز رسانی شد.',
+	d_title: 'عنوان برچسب',
+	d_label: ' عنوان لیبل',
+	d_openButton: 'برچسب جدید',
+	d_createTime: 'تاریخ ایجاد',
+	d_usageCount: 'تعداد استفاده',
+	d_lastUsageTime: 'تاریخ آخرین استفاده',
+	d_save: 'ذخیره',
+	d_cancel: 'لغو کردن',
+	d_description: 'توضیحات',
+	t_title: 'برچسب خود را وارد کنید.',
+	suggestion_loading_text: 'لطفا منتظر بمانید...',
+	tag_label: 'انتخاب برچسب (ها)',
+	no_Options: 'لطفاً عنوان برچسب را وارد کنید.',
+	no_data: 'داده ای پیدا نشد',
+	edit: 'ویرایش',
+	delete_button: 'حذف',
+	search: 'جست و جو',
+	add_tag: 'اضافه کردن برچسب',
+	choose_labels: 'انتخاب برچسب ها',
+	label: 'برچسب',
+	searching: 'در حال جست و جو',
+	please_wait: 'لطفا منتظر بمانید',
+	tag_registered: 'اطلاعات برچسب {{title}} ثبت شد.',
+	server_error: 'متاسفانه مشکلی در سرور رخ داده است امکان ثبت اطلاعات میسر نیست.',
+	tag_updated: 'اطلاعات برچسب {{title}} بروزرسانی شد..',
+	edit_tag: 'ویرایش تگ',
+	tags: 'برچسب ها'
+};
+
+export default locale;

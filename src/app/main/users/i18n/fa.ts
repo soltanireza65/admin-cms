@@ -1,0 +1,31 @@
+// TODO - Add tranlation
+const locale = {
+	header_search_email: 'ایمیل',
+	header_search_phone: 'همراه',
+	header_search_userid: 'کد کاربری',
+	header_search: 'برای جستجو از منوی مقابل یکی را انتخاب کنید',
+	new_user: 'کاربر جدید',
+	no_data: 'داده ای وجود ندارد',
+	edit_description: 'ویرایش اطلاعات کاربر',
+	password_description: 'ویرایش گذرواژه کاربر',
+	edit_role_description: 'ویرایش نقش های کاربر',
+	fullname: 'نام و نام خانوادگی',
+	roles: 'نقش ها',
+	edit: 'ویرایش',
+	edit_user: 'ویرایش کاربر',
+	please_wait: 'لطفا منتظر بمانید',
+	edit_user_roles: 'ویرایش نقش های {{ user }}',
+	add_new_role: 'اضافه کردن نقش جدید',
+	no_role: 'نقشی برای این کاربر وجود ندارد',
+	edit_user_password: 'ویرایش گذرواژه کاربر {{ user }} ',
+	password: 'گذرواژه',
+	repeat_password: 'تکرار گذرواژه',
+	save: 'ذخیره',
+	cancel: 'لغو',
+	create_user: 'ایجاد کاربر',
+	email: 'ایمیل',
+	phone: 'همراه',
+	create: 'ایجاد',
+	user_update: 'نام کاربری کاربر {{user}} با موفقیت تغییر یافت'
+};
+export default locale;

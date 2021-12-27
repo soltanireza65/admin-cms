@@ -1,0 +1,22 @@
+export default {
+	title: 'Indicator',
+	perdictedNumber: 'Predicted value',
+	actions: 'Actions',
+	listpoint: 'Data',
+	dailyMessage: 'In daily mode, you can record only one point.',
+	momentaryMessage: 'Instant mode, in this mode you can enter fear ndicator information instantly',
+	rise_indicator_data: 'Fear ndicator data',
+	daily: 'Daily',
+	instant: 'Instant',
+	row: 'Row',
+	value: 'Value',
+	date: 'Date',
+	delete: 'Delete',
+	please_wait: 'Please wait',
+	no_data: 'There is no data',
+	exit: 'Exit',
+	risk_index: 'Risk indicator',
+	bubble_chart: 'Bubble chart',
+	index_updated: 'Index {{title}} information updated',
+	index_failed: 'There was a problem updating the index {{title}} information'
+};

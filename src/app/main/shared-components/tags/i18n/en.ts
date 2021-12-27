@@ -1,0 +1,33 @@
+const locale = {
+	save_data: 'Tag {{title}} information was successfully registered.',
+	edit_data: 'Tag {{title}} information updated.',
+	d_title: 'Tag Label',
+	d_label: ' Title Label',
+	d_openButton: 'New Tag',
+	d_createTime: 'Creation Date',
+	d_usageCount: 'Usage Count',
+	d_lastUsageTime: 'Last used date',
+	d_save: 'Save',
+	d_cancel: 'Cancel',
+	d_description: 'Description',
+	t_title: 'Enter your tag',
+	suggestion_loading_text: 'Please wait ...',
+	tag_label: 'Select tag(s)',
+	no_Options: 'Please enter tag title',
+	no_data: 'No data found',
+	edit: 'Edit',
+	delete_button: 'Delete',
+	search: 'Search',
+	add_tag: 'Add Tag',
+	choose_labels: 'Choose labels',
+	label: 'Tag',
+	searching: 'Searching',
+	please_wait: 'Please wait',
+	tag_registered: 'Tag {{title}} registered',
+	server_error: 'Unfortunately, there is a problem with the server',
+	tag_updated: 'Tag {{title}} updated',
+	edit_tag: 'Edit tag',
+	tags: 'Tags'
+};
+
+export default locale;

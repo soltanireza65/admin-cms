@@ -1,0 +1,17 @@
+.text-select {
+	/* background-color: red; */
+	/* color: black; */
+}
+
+/* .ck.ck-reset.ck-editor.ck-rounded-corners {
+	direction: rtl;
+} */
+
+
+.left-16{
+	left: 16px;
+}
+
+.ck-content{
+	height: 500px;
+}

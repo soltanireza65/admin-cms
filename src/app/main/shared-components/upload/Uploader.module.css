@@ -1,0 +1,16 @@
+.uploadButton {
+	border-radius: 20px;
+	border: 1px solid #3543d0;
+	padding: 10px 20px;
+	cursor: pointer;
+	flex: 1;
+	margin: 0 10px;
+}
+.cancelButton {
+	border-radius: 20px;
+	border: 1px solid rgb(255, 0, 0);
+	padding: 10px 20px;
+	cursor: pointer;
+	flex: 1;
+	margin: 0 10px;
+}
